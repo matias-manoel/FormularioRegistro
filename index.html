@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Desenvolvido por Manoel Matias -->
+<html lang="pt-br" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Formulário de Registro</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="titulo">Registro</div>
+			<div class="conteudo">
+				<form action="#">
+					<div class="detalhes-usuario">
+						<div class="caixa-entrada">
+							<span class="detalhes">Nome Completo</span>
+							<input type="text" placeholder="Digite seu nome" required>
+						</div>
+						<div class="caixa-entrada">
+							<span class="detalhes">Nome de Usuário</span>
+							<input type="text" placeholder="Digite seu nome de usuário" required>
+						</div>
+						<div class="caixa-entrada">
+							<span class="detalhes">Email</span>
+							<input type="text" placeholder="Digite seu email" required>
+						</div>
+						<div class="caixa-entrada">
+							<span class="detalhes">Número de Telefone</span>
+							<input type="text" placeholder="Digite seu número" required>
+						</div>
+						<div class="caixa-entrada">
+							<span class="detalhes">Senha</span>
+							<input type="password" placeholder="Digite sua senha" required>
+						</div>
+						<div class="caixa-entrada">
+							<span class="detalhes">Confirme a Senha</span>
+							<input type="password" placeholder="Confirme sua senha" required>
+						</div>
+					</div>
+					<div class="detalhes-sexo">
+						<input type="radio" name="sexo" id="ponto-1">
+						<input type="radio" name="sexo" id="ponto-2">
+						<input type="radio" name="sexo" id="ponto-3">
+						<span class="titulo-sexo">Sexo</span>
+						<div class="categoria">
+							<label for="ponto-1">
+								<span class="ponto um"></span>
+								<span class="sexo">Masculino</span>
+							</label>
+							<label for="ponto-2">
+								<span class="ponto dois"></span>
+								<span class="sexo">Feminino</span>
+							</label>
+							<label for="ponto-3">
+								<span class="ponto tres"></span>
+								<span class="sexo">Prefiro não dizer</span>
+							</label>
+						</div>
+					</div>
+					<div class="botao">
+						<input type="submit" value="Registro">
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
